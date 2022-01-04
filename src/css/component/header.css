@@ -1,0 +1,27 @@
+.header__title {
+    z-index: 2;
+   font-family: var(--font-second);
+   font-size: var(--header--title);
+   font-weight: 400;
+    color: var(--yellow);
+}
+
+.header__background {
+    z-index: -1;
+position: absolute;
+width: 375.61px;
+height: 43px;
+left: 0px;
+top: 0px;
+background: var(--black)
+}
+
+.header__menu__icon {
+    position: absolute;
+width: 45.29px;
+height: 26.72px;
+left: 319.44px;
+top: 7.9px;
+color: var(--white);
+}
+

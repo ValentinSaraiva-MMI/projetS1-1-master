@@ -1,0 +1,191 @@
+.first-page__image1 {
+    width: 51%;
+    position: relative;
+left: 184px;
+top: 0px;
+
+}
+
+
+.first-page__image2 {
+    width: 51%;
+    position: absolute;
+left: 0;
+top: 345px;
+} 
+
+
+.quotes__image1 {
+    font-size: var(--firstpage--quotes);
+   position: absolute;
+width: 132px;
+height: 84px;
+left: 27px;
+top: 156px;
+font-family:var(--font-second);
+font-weight: 700;
+color: var(--green-low);
+text-align: center;
+
+} 
+
+
+
+.quotes__image2 {
+    z-index: 3;
+    font-size: var(--firstpage--quotes);
+   position: absolute;
+width: 129px;
+height: 105px;
+left: 29px;
+top: 90px;
+font-family:var(--font-second);
+font-weight: 700;
+color: var(--white);
+text-align: center;
+vertical-align: center;
+} 
+
+
+.background__image2 {
+   position: relative;
+width: 187.8px;
+height: 316.41px;
+left:181px;
+top: -89px;
+z-index: -2;
+background: #91B108; }
+
+
+.arrow__down {
+    position: relative;
+    top: -158px;
+    left: 261px;
+width: 41.09px;
+height: 25.87px;
+}
+
+.feuille{
+    position: relative;
+    top: -60px;
+    left: 113px;
+    width: 56.17px;
+    height: 59.68px;
+}
+
+.summary {
+    color: var(--grey);
+    font-family: var(--font-main);
+    font-style: italic;
+    position: relative;
+    top: -30px
+}
+
+/*
+.background__image {
+    z-index: -5;
+  position: absolute;
+width: 375.61px;
+height: 232.56px;
+left: 0px;
+top: 660.09px;
+background: #E5E5E5; } */
+
+.tweet__film {
+ margin-left: auto;
+margin-right: auto;
+}
+
+.image__film {
+    position: relative;
+z-index: -1;
+width: 282.59px;
+height: 140.9px;
+left: 25.27px;
+top: 0px;
+margin-bottom: 3px;
+}
+
+
+.arrow__image__film  {
+    position: relative;
+     left: -22px;
+    top: -5px;
+    width: 28.02px;
+height: 18.42px;
+  
+}
+
+.film__undertitle__A {
+    color: var(--green-low);
+    font-size: var(--firstpage--main-article);
+    position: relative;
+    left: 27px;
+}
+
+
+.film__undertitle__B {
+    color: var(--green-low);
+    font-size: var(--firstpage--main-article);
+    position: relative;
+    left: 5px;
+}
+
+
+.film__background__undertitle {
+    position: relative;
+    left: 24px;
+    background-color: var(--grey-low);
+    padding-left: 15px;
+    width: 35%;
+    border: solid var(--black) 1px;
+}
+
+.tweet__film__description {
+    position: relative;
+    top: -62px;
+    left: 48%;
+    font-family: var(--font-main);
+    font-size: 11px;
+    width: 42%;
+    color: var(--grey);
+    font-style: italic;
+    }
+
+    .legende__image {
+        font-size: var(--picture--origin);
+        font-family: var(--font-main);
+        color: var(--grey);
+        position: relative;
+        left: 12rem;
+        bottom: -13px;
+    }
+
+    .replique__title
+    {
+       font-size: var(--article--titre);
+        font-family: var(--font-main);
+        color: var(--white);   
+        font-weight: 700;
+        padding-top: 8px;
+        padding-left: 85px;
+    }
+
+
+.replique__img {
+   padding-right: 25px;
+   padding-left:25px
+}
+
+    .background__image {
+        background-color: var(--green-low);
+    }
+
+       .legende__image__replique{
+        font-size: var(--picture--origin);
+        font-family: var(--font-main);
+        color: var(--grey);
+        position: relative;
+        left: 16rem;
+        bottom: 8px;
+    }

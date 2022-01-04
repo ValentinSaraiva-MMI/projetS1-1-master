@@ -1,0 +1,51 @@
+.bouton__footer 
+ {
+    background-color: var(--black);
+    border: none;
+    color: white;
+    padding: 13px 110px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid 1px white;
+ 
+}
+
+.bouton__footer
+ {
+    background-color: var(--black);
+    border: none;
+    color: white;
+    padding: 13px 112px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid 1px white;
+}
+
+.bouton__footer__link {
+  color: var(--noir);
+  text-decoration: none;
+  font-size: var(--footer--button);
+  font-family:var(--font-main);
+}
+
+.footer__mentionlegale__deco {
+  background: var(--black);
+ padding: 15px 112px;
+  height : 65px;
+  left: 5px;
+  z-index: -1;
+}
+  
+.footer__logo {
+position: relative;
+width: 44.13px;
+height: 42.83px;
+left: 50px;
+top: -50px;
+
+  }
+
+
+

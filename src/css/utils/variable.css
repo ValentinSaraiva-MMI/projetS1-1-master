@@ -1,0 +1,70 @@
+:root {
+
+    /* Color styles */
+--green-light: rgba(37, 119, 29, 1);
+--black: rgba(1, 1, 6, 1);
+--grey: rgba(98, 102, 109, 1);
+--green-low: rgba(145, 177, 8, 1);
+--yellow: rgba(203, 249, 1, 1);
+--white: rgba(242, 242, 242, 1);
+--grey-low: rgba(211, 215, 217, 1);
+--brown: rgba(193, 130, 92, 1);
+
+
+/* Police de caractére */
+--font-main: 'Open Sans', sans-serif;
+--font-second: 'Playfair Display', serif;
+
+
+
+/* Text-size styles */
+/* base size: r-e-m (16px) */
+--r-e-m: 1rem;
+--header--title: 0.99rem;
+--firstpage--quotes: 0.99rem;
+--firstpage--summary: 0.71rem;
+--firstpage--main-article: 1.1rem;
+--firstpage--main-article--tweet: 0.55rem;
+--picture--origin: 0.49rem;
+--footer--button: 0.94rem;
+--carroussel--titre: 1.64rem;
+--carroussel--sous-titre: 1.26rem;
+--article--titre: 1.07rem;
+--article--soustitre: 0.99rem;
+--article--intro: 0.93rem;
+--article--main-texte: 0.82rem;
+--article--quotes: 0.77rem;
+--liste--titre: 0.82rem;
+--liste--texte: 0.68rem;
+
+
+
+  /* Espaces */
+--space1x: 3px;
+--space2x: 8px;
+--space3x: 16px;
+--space4x: 24px;
+--space5x: 36px;
+--space6x: 80px;
+
+}
+
+.margin1 {
+    margin: 1em;
+}
+
+.margin2 {
+    margin: 2.8em;
+}
+
+.margin__negativeA {
+    margin: -1em;
+}
+
+.margin__negative__B {
+    margin: -3em;
+}
+
+.margin__negative__C {
+    margin: -5em;
+}
