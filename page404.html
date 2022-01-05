@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<title>404 - Page Non trouvée</title>
+<form action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' site:mmimontbeliard.com'">
+    <label for="q">Text à chercher :</label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>
+
+
+<h1>Oups!</h1>
+<h2>La page que vous recherchez semble introuvable</h2>
+<h2>Code d'erreur 404</h2>
+
+<img src="/public/img/ImageSAE/travolta.gif" alt="">
+
+
+<p>Voici quelques liens utils pour vous rediriger: </p>
+
+<ul>
+    <ul>
+        <li><a href="index.html">Accueil</a> </li>
+        <li> <a href="apropos.html">À propos</a> </li>
+        <li> <a href="contact.html">Contact</a></li>
+    </ul>
+</ul>
+
+</body>
+
+<footer class="footer__taille">
+
+    <button class="bouton__footer"><a class="bouton__footer__link" href="contact.html">M'ENVOYER UN
+            MAIL</button>
+
+    <div class="footer__mentionlegale__deco"></div>
+    <img class="footer__logo" src="public/icone/mmi1.png" alt="Logo du département MMI coloré en vert">
+    <p class="footer__texte">Projet réalisé dans le cadre
+        d'un exercice pédagogique
+        au Département MMI de
+        Montbéliard.
+</footer>
+
+</html>

@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/utils/style.css">
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
     <title>Complé(te)mentDifférents</title>
 </head>
 <!--
@@ -100,30 +102,45 @@ html validé w3c
             <p class="legende__image">Images issues du film © Savages, 2012</p>
         </section>
 
+
+
         <div class="background__image">
-            <h3 class="replique__title">La réplique de Savages</h3>
-            <img src="public/img/ImageSAE/giphy1(3).webp" class="replique__img" alt="Image issues du film">
-            <p class="legende__image__replique">© Caroline Chambre</p>
-
-        </div>
-        <div class="margin__negativeA"></div>
-        <footer>
-            <button class="bouton__footer">
-                <a class="bouton__footer__link" href="#">RETOURE EN HAUT</a>
-            </button>
-            <button class="bouton__footer"><a class="bouton__footer__link" href="contact.html">M'ENVOYER UN
-                    MAIL</button>
+            <div class="visionneuse">
+                <div class="image image13" x-on:mouseover="monterLegende();" x-on:mouseleave="descendreLegende();">
+                    <h3 class="replique__title">La réplique de Savages</h3>
+                    <img src="public/img/ImageSAE/giphy1(3).webp" class="replique__img" alt="Image issues du film">
+                    <div class="texte13">
+                        <p class="legende__image__replique">© Caroline Chambre</p>
+                    </div>
+                </div>
+            </div>
 
 
 
-            <div class="footer__mentionlegale__deco"></div>
-            <img class="footer__logo" src="public/icone/mmi1.png" alt="Logo du département MMI coloré en vert">
-            <p class="footer__texte">Projet réalisé dans le cadre
-                d'un exercice pédagogique
-                au Département MMI de
-                Montbéliard.
-            </p>
-        </footer>
+
+
+
+
+
+
+            <div class="margin__negativeA"></div>
+            <footer>
+                <button class="bouton__footer">
+                    <a class="bouton__footer__link" href="#">RETOURE EN HAUT</a>
+                </button>
+                <button class="bouton__footer"><a class="bouton__footer__link" href="contact.html">M'ENVOYER UN
+                        MAIL</button>
+
+
+
+                <div class="footer__mentionlegale__deco"></div>
+                <img class="footer__logo" src="public/icone/mmi1.png" alt="Logo du département MMI coloré en vert">
+                <p class="footer__texte">Projet réalisé dans le cadre
+                    d'un exercice pédagogique
+                    au Département MMI de
+                    Montbéliard.
+                </p>
+            </footer>
 
 
 
