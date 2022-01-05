@@ -2,7 +2,7 @@
     width: 51%;
     position: relative;
 left: 184px;
-top: 0px;
+top: 8px;
 
 }
 
@@ -188,7 +188,36 @@ height: 18.42px;
         position: relative;
         left: 16rem;
         bottom: 8px;
+       }
+
+
+ .legende__image__replique__mouseover {
+font-size: var(--picture--origin);
+        font-family: var(--font-main);
+        color: var(--grey);
+        	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	line-height: 5em;
+    top: 0;
+	display: none;
+ }
+        
+/*
+        	position: relative;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	line-height: 5em;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.55);
+	top: 0;
+	display: none;
     }
 
 
- 
+ */ 
