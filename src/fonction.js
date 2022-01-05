@@ -12,6 +12,8 @@ function monterLegende() {
     }).play;
 }
 
+
+
 function descendreLegende() {
     return anime({
         targets: '.texte13',
@@ -22,6 +24,7 @@ function descendreLegende() {
     }).play;
 }
 
+/*
 function glisserCote() {
     return anime({
         targets: '.texte14',
@@ -156,3 +159,5 @@ function chargeBarre() {
         autoplay: false
     }).play;
 };
+
+*/ 
