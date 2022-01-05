@@ -1,0 +1,31 @@
+.title__Nav {
+    font-family: var(--font-main);
+    font-size: 20px;
+    color: var(--green-low);
+    font-weight: 600;
+}
+
+.img__nav {
+    height: 100%;
+    width: 100%;
+}
+
+.background__nav { 
+    background-color:var(--black); 
+}
+
+.link__nav {
+    color: var(--white);
+    text-decoration: none;
+    position: relative;
+    top: -15px;
+    margin-right: 50px;
+
+   
+}
+
+.icone__nav {
+     margin-left: 50px;
+}
+
+.logo__nav 
