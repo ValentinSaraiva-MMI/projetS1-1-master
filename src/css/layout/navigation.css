@@ -28,4 +28,9 @@
      margin-left: 50px;
 }
 
-.logo__nav 
+.icone__cross__nav {
+    position: relative;
+    left: 90%;
+    top: -35px;
+}
+
