@@ -1,0 +1,41 @@
+textarea {
+color: var(--couleur-interfacecontact);
+font-family: var(--font-main);
+
+font-size: 14px;
+border: 2px solid var(--bleu);
+box-sizing: border-box;
+width: 90%;
+margin-left: 5%;
+
+
+}
+
+
+.p__categorie__contact {
+    font-family: var(--font-main);
+    font-size: 14px;
+    color: var(--gri-foncé);
+    
+    
+   margin-top: 20px;
+   margin-bottom: 5px;
+   margin-left: 15px;
+
+}
+
+.button {
+    margin-top: 15px;
+    font-family: var(--font-main);
+    background-color: var(--green-low);
+    border: none;
+    color:var(--black);
+    margin-left: 110px;
+       
+    padding: 6px 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

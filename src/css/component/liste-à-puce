@@ -1,0 +1,21 @@
+/*
+.puce__title {
+    font-size: var(--liste--titre);
+    font-family: var(--font-main);
+    color: var(--black);
+    position: relative;
+    left: -10px;
+}
+
+.puce__texte {
+     font-size: var(--liste--texte);
+    font-family: var(--font-main);
+    color: var(--grey);
+    position: relative;
+    left: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+*/

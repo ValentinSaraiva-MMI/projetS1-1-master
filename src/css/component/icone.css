@@ -1,0 +1,32 @@
+.icone__citation__image{
+    position: relative;
+width: 65.08px;
+height: 55.81px;
+left: 30px;
+top: 18px;
+}
+
+.icone__citation__texte {
+    width: 60%;
+    font-size: var(--article--quotes);
+    font-family: var(--font-main);
+    color: var(--green-low);
+    font-weight: 700;
+    position: relative;
+    bottom: 60px;
+    left: 110px;
+}
+
+
+
+
+.icone__citation__texte2 {
+    width: 55%;
+    font-size: var(--article--quotes);
+    font-family: var(--font-main);
+    color: var(--green-low);
+    font-weight: 700;
+    position: relative;
+    bottom: 60px;
+    left: 110px;
+}

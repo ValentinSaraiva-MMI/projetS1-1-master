@@ -25,7 +25,7 @@
 --firstpage--summary: 0.71rem;
 --firstpage--main-article: 1.1rem;
 --firstpage--main-article--tweet: 0.55rem;
---picture--origin: 0.49rem;
+--picture--origin: 0.54rem;
 --footer--button: 0.94rem;
 --carroussel--titre: 1.64rem;
 --carroussel--sous-titre: 1.26rem;
@@ -33,9 +33,9 @@
 --article--soustitre: 0.99rem;
 --article--intro: 0.93rem;
 --article--main-texte: 0.82rem;
---article--quotes: 0.77rem;
---liste--titre: 0.82rem;
---liste--texte: 0.68rem;
+--article--quotes: 0.79rem;
+--liste--titre: 0.85rem;
+--liste--texte: 0.72rem;
 
 
 
@@ -67,4 +67,13 @@
 
 .margin__negative__C {
     margin: -5em;
+}
+
+.margin__negative__D{
+    margin: -13em;
+}
+
+
+.margin__negative__footer {
+    margin: -1.5em;
 }

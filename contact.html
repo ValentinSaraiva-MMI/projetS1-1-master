@@ -12,46 +12,58 @@
 html validé w3c
 -->
 
-<body>
-    <header>
-        <h1>Complé(te)ment différents</h1>
-        <a href="navigation.html"><img src="public/icone/menuderoulant.png" alt="menuderoulant"></a>
-    </header>
-
-
+<body class="background__contact">
     <main>
-        <form action="/ma-page-de-traitement" method="post">
-            <div>
-                <label for="name">Nom </label>
-                <input type="text" id="name" name="user_name">
-            </div>
-            <div>
-                <label for="firstname">Prénom</label>
-                <input type="text" id="firstname" name="user_firstname">
-            </div>
-            <div>
-                <label for="mail">e-mail </label>
-                <input type="email" id="mail" name="user_mail">
-            </div>
+        <header>
+            <div class="header__background"></div>
+            <h1 class="header__title">Complé(te)ment différents</h1>
+            <a href="navigation.html"><img src="public/icone/menuderoulant.png" class="header__menu__icon"
+                    alt="menuderoulant"></a>
+        </header>
 
-            <div>
-                <label for="mail">objet </label>
-                <input type="email" id="objet" name="objet">
-            </div>
-            <div>
-                <label for="msg">Message</label>
-                <textarea id="msg" name="user_message"></textarea>
-            </div>
-            <div class="button">
-                <button type="submit">ENVOYER</button>
-            </div>
-        </form>
+
+
+
+        <p class="p__categorie__contact">Nom/ Prénom</p>
+        <label for="nom"></label>
+        <textarea id="nom" name="nom" rows="1" cols="48"></textarea>
+
+        <br>
+
+        <p class="p__categorie__contact">Email</p>
+        <label for="email"></label>
+        <textarea id="email" name="email" rows="1" cols="48">
+                </textarea>
+        <br>
+
+        <p class="p__categorie__contact">Objet</p>
+        <label for="objet"></label>
+        <textarea id="objet" name="objet" rows="1" cols="48">
+                </textarea>
+        <br>
+
+
+        <p class="p__categorie__contact">Message</p>
+        <label for="Message"></label>
+        <textarea id="Message" name="Message" rows="5" cols="48">
+
+                </textarea>
+
+        <button class="button ">ENVOYER</button>
+
+        <br>
     </main>
 
+    <div class="margin2"></div>
+
     <footer>
-        <h3>M'ENVOYER UN MAIL</h3>
-        <img src="public/icone/mmi1.png" alt="Logo du département MMI coloré en vert">
-        <p>Projet réalisé dans le cadre
+
+        <button class="bouton__footer"><a class="bouton__footer__link" href="contact.html">M'ENVOYER UN
+                MAIL</button>
+
+        <div class="footer__mentionlegale__deco"></div>
+        <img class="footer__logo" src="public/icone/mmi1.png" alt="Logo du département MMI coloré en vert">
+        <p class="footer__texte">Projet réalisé dans le cadre
             d'un exercice pédagogique
             au Département MMI de
             Montbéliard.

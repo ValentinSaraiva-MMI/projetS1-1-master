@@ -1,0 +1,81 @@
+.article__title {
+    font-family: var(--font-main);
+    font-size: var(--article--titre);
+    color: var(--green-low);
+ position: relative;
+ top: 6px;
+margin-left: 15px
+}
+
+.article__intro {
+    font-family: var(--font-main);
+    font-size: var(--article--intro);
+    color: var(--grey);
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.article__image {
+    size: 100%;
+}
+
+.image__reference__texte {
+      font-family: var(--font-main);
+    font-size: var(--picture--origin);
+    color: var(--grey);
+    position: relative;
+    top: -12px;
+   left: 210px;
+   margin-bottom: -10px;
+}
+
+
+.article__undertitle {
+        font-family: var(--font-main);
+    font-size: var(--article--soustitre);
+    color: var(--black);
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 15px
+}
+
+
+.article__main-texte3,
+.article__main-texte2,
+.article__main-texte {
+     font-family: var(--font-main);
+    font-size: var(--article--main-texte);
+    color: var(--grey);
+       margin-left: 15px
+}
+
+
+.article__main-texte2 {
+    width: 50%;
+    position: relative;
+    bottom: 210px;
+    margin-bottom: -10px;
+}
+
+.article__main-texte3{
+    position: relative;
+    bottom: 210px;
+}
+
+
+.pochette__film {
+    position: relative;
+    left: 220px;
+}
+
+.film__affiche__reference__texte {
+     font-family: var(--font-main);
+    font-size: var(--picture--origin);
+    color: var(--grey);
+    position: relative;
+    top: -12px;
+   left: 220px;
+   margin-bottom: -10px;
+}
+

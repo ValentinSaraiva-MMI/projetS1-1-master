@@ -14,11 +14,15 @@
 @import url("/src/css/component/footer.css");
 @import url("/src/css/component/hero.css");
 @import url("/src/css/component/icone.css"); 
+@import url("/src/css/component/liste-à-puce");
 
 
 /*layout*/ 
 @import url("/src/css/layout/presentation.css");
 @import url("/src/css/layout/index.css");
+@import url("/src/css/layout/lefilm.css");
+@import url("/src/css/layout/lelivre.css");
+@import url("/src/css/layout/contact.css");
 
 /*base*/ 
 @import url("/src/css/base/main.css");

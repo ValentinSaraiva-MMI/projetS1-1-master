@@ -1,0 +1,144 @@
+.image__reference__texte__livre {
+      font-family: var(--font-main);
+    font-size: var(--picture--origin);
+    color: var(--grey);
+    position: relative;
+    top: -12px;
+   left: 200px;
+   margin-bottom: -10px;
+}
+
+.article__title__padding{
+    font-family: var(--font-main);
+    font-size: var(--article--titre);
+    color: var(--green-low);
+ position: relative;
+ top: 6px;
+margin-left: 15px;
+margin-top: 20px;
+}
+
+
+
+.article__main-texte__version {
+     font-family: var(--font-main);
+    font-size: var(--article--main-texte);
+    color: var(--grey);
+      width: 85%;
+      position: relative;
+      left: 8px;
+
+margin-bottom: 5;
+padding: 12px ;
+border: solid;
+z-index: 1;
+}
+
+
+.background__extrait {
+    background-color: #D3D7D9; }
+
+
+    .background__contact{
+    background-color:  #C4C4C4; }
+
+
+
+    .background__extrait__border {
+        position: absolute;
+        top: 1347px;
+        left: 3px;
+    width: 11px;
+    height: 1118px;
+background: #D3D7D9;
+z-index: 1;
+    }
+
+    .background__extrait__main-texte {
+        background-color: var(--white);
+    }
+
+
+
+    .background__extrait__border__right {
+        position: absolute;
+        left: 350px;
+    width: 11px;
+    height: 1040px;
+background:  #D3D7D9;
+z-index: 1;
+    }
+
+
+    .background__extrait__border__down {
+       position: relative;
+width: 375px;
+height: 23px;
+left: -8px;
+top: -21px;
+background: #D3D7D9;
+    }
+
+/*#E5E5E5 */
+
+    
+.image__reference__texte__auteur{
+      font-family: var(--font-main);
+    font-size: var(--picture--origin);
+    color: var(--grey);
+    position: relative;
+    top: -10px;
+   left: 175px;
+   margin-bottom: -10px;
+}
+
+
+.puce__title {
+    font-size: var(--liste--titre);
+    font-family: var(--font-main);
+    color: var(--black);
+    position: relative;
+    left: 0px;
+     margin-bottom: 3px;
+    
+}
+
+.puce__texte {
+     font-size: var(--liste--texte);
+    font-family: var(--font-main);
+    color: var(--grey);
+    position: relative;
+    left: 10px;
+    width: 500px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.puce__deco__li{
+    position: relative;
+    top: 0px;
+    left: 58px;
+width: 4.38px;
+height: 100%;
+margin-right: -25px;
+margin-bottom: 20px;
+background: #809D01;
+}
+
+
+
+
+
+
+.puce__texte__last {
+    font-size: var(--liste--texte);
+    font-family: var(--font-main);
+    color: var(--grey);
+    position: relative;
+    left: 10px;
+    width: 500px;
+    margin-bottom:20px;
+
+}

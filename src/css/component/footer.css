@@ -40,12 +40,19 @@
   
 .footer__logo {
 position: relative;
-width: 44.13px;
-height: 42.83px;
-left: 50px;
-top: -50px;
-
+width: 60.13px;
+height: 55.83px;
+left: 40px;
+top: -75px;
   }
 
-
+.footer__texte {
+    position: relative;
+    left: 110px;
+    top: -150px;
+    font-family: var(--font-main);
+    font-size: 14px;
+    color: var(--white);
+    width: 65%;
+}
 
